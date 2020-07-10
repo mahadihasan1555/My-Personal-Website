@@ -1,0 +1,110 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1.6em;
+    letter-spacing: .1em;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+section{
+    padding-bottom: 150px;
+    height: 500px;
+}
+.nameHighlight{
+    color: tomato;
+    font-weight: 800;  
+}
+.halfWidth p{
+    color: dimgray;
+    text-align: justify;
+    padding-bottom: 30px;
+}
+.halfWidth{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.halfWidth img{
+    width: 100%;
+}
+.linkButton{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,#ee0979, #ff6a00);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:#fff;
+    font-weight: 800;
+}
+.introArea{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+}
+.bioArea{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.showcase img{
+    width: 80%;
+}
+.showcase{
+    width: 30%;
+    float: left;
+    padding-left: 2%;
+    
+}
+.workArea h2{
+    text-align: center;
+}
+.workArea{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.clientArea{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+
+}
+.aboutMe h2, h3, h4, p{
+    text-align: center;
+}
+.aboutMe h4{
+    color: dimgray;
+
+}
+.aboutMe h2{
+    padding-bottom: 20px;
+}
+.contactArea{
+    text-align: center;
+    padding: 10px 20px solid red;
+}
+.contact{
+
+   background-image: linear-gradient(45deg,#FF6191, tomato);
+   padding: 50px 200px;
+   margin: 0px 300px;
+   border-radius: 5px;
+   color: #fff;
+}
+.contact p{
+    font-size: 25px;
+}
+.massage{
+    margin:50px 300px;
+    
+}
+.mainFooter p{
+    text-align: center;
+    color: #fff;
+    background-color: #bdc3c7;
+    font-size: 12px;
+    margin-bottom: 0;
+}
